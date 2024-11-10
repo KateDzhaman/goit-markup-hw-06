@@ -298,12 +298,7 @@ padding: 32px 16px;
     border-right: 1px solid #e7e9fc;
 }
 
-.footer-container {
-    max-width: 264;
-    padding-top: 100px;
 
-    padding-bottom: 100px;
-}
 .footer-logo 
 {display: inline-block;
     margin-bottom: 16px;
