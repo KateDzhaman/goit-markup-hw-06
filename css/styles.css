@@ -249,8 +249,11 @@ a {
     clip: rect(0 0 0 0);
     width: 1px;
     height: 1px;
+    padding: 0;
     margin: -1px;
-    …
+    overflow: hidden;
+    white-space: nowrap;
+    border: 0;
 }
 .img-avatar-item,
 .img-illustration-list {
@@ -282,11 +285,11 @@ a {
 .img-illustration-heading {
     margin-bottom: 8px;
 }
-.illustration-container {
+/*.illustration-container {
 padding: 32px 16px;
-}
+}*/
 .text-illustration {
-    padding: 32px 0 32px;
+    padding: 32px 16px;
     padding-left: 16px;
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
