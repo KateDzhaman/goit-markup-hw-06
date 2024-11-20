@@ -304,7 +304,7 @@ background-color: #fff;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 
 }
-.box-img {
+.box-image {
     position: relative;
     margin: 0 auto;
     overflow: hidden;
@@ -321,7 +321,7 @@ background-color: #fff;
     background-color: #4D5AE5;
     height: 100%;
     width: 100%;
-   
+    
 }
 .overlay {
     position: absolute;
@@ -446,6 +446,20 @@ background-color: #fff;
     border-right: 1px solid #e7e9fc;
 }
 
+.footer-main {
+    display: flex;
+    align-items: baseline;
+    
+    max-width: 1158px;
+    margin-left: 156px;
+    margin: 0 auto;
+}
+
+.footer-container {
+    margin-right: 120px;
+
+}
+
 .footer-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -454,12 +468,18 @@ background-color: #fff;
     max-width: 264px;
     color: #f4f4fd;
 }
-.page-footer {
-    display: flex;
-    align-items: baseline;
-    max-width: 1158px;
-    padding: 156px 692px 100px 156px;
-    margin-left: 156px;
-    margin: 0 auto;
+.social-text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:  #FFFFFF;
+    margin-bottom: 16px;
 
+}
+
+.social-links-footer {
+    display: flex;
+    gap: 16px;
+    
 }
