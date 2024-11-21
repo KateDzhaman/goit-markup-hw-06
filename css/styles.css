@@ -250,8 +250,8 @@ img {
     width: 40px;
     height: 100%;
     border-radius: 50%;
-    background-color: #4D5AE5;              
-    ;
+    background-color: #4D5AE5;   
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links .svg-avatar:hover {
@@ -320,7 +320,7 @@ background-color: #fff;
     letter-spacing: 0.02em;
     color: #F4F4FD;
     padding: 40px 32px;
-    background-color: #4D5AE5;
+    background-color: #4d5ae5;
     height: 100%;
     width: 100%;
     
