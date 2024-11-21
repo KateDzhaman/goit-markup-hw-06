@@ -335,6 +335,9 @@ background-color: #fff;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
+  .box-image .text-overlay {
+    background-color: #4d5ae5;
+  }
 .img-illustration-item:hover .overlay {
     transform: translateY(0);
 }
@@ -507,5 +510,9 @@ background-color: #fff;
 }
 .svg-avatar-icon {
     width: 24px;
+
+}
+.social-links-footer .svg-avatar {
+    background-color: #4d5ae5;
 
 }
