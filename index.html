@@ -419,7 +419,7 @@
         </ul>
       </div>
     </div>
-  </footer>
+ 
   <div class="backdrop is-open">
     <div class="modal">
       <button class="button-modal-close" type="button">
@@ -445,34 +445,45 @@
           <div class="user-form">
             <label class="form-label" for="tel-input">
 
-              Phone </label><input id="tel-input" class="data" type="tel" name="personaldata" placeholder="Phone" />
+              Phone </label>
+              <div class="user-input">
+                <input id="tel-input" class="data" type="tel" name="personaldata" placeholder="Phone" />
             <svg class="svg-user-icon" width="18px" height="24px">
               <use href="./images/icons.svg#icon-phoneblack" clas="user-icon"></use>
             </svg>
           </div>
+
+          </div>
           <div class="user-form">
             <label class="form-label" for="email-input">
 
-              Email </label><input id="email-input" class="data" type="email" name="personaldata"
+              Email </label>
+              <div class="user-input">
+                <input id="email-input" class="data" type="email" name="personaldata"
               placeholder="E-mail" />
             <svg class="svg-user-icon" width="18px" height="24px">
               <use href="./images/icons.svg#icon-emailblack" clas="user-icon"></use>
             </svg>
+            </div>
           </div>
           <div class="user-form">
-            <label class="form-label">Comment </label><textarea class="data textarea-label" name="personaldata" rows="5"
-              placeholder="text input">
+            <label class="form-label" for="user-comment">Comment </label>
+            <div class="user-textarea">
+       
+            <textarea class="data textarea-label" name="user-comment" id="user-comment" rows="5"
+              placeholder="Text input">
            </textarea>
+           </div>
           </div>
           <div>
 
           </div>
       </form>
       <div class="chek-text">
-        <input type="checkbox" class="checkbox" id="tcheck" name="accept" value="accept" />
-        <label class="new-checkbox" for="tcheck">
+        <input type="checkbox" class="checkbox" id="user-privacy" name="user-privacy" value="true" />
+        <label class="new-checkbox" for="user-privacy">
           <span class="span-checkbox">
-            <svg class="chek" width="16px" height="16px">
+            <svg class="chek" width="10px" height="8px">
               <use href="./images/icons.svg#icon-Propertyclick" class="chek-icon">
 </use>
             </svg>
@@ -482,13 +493,14 @@
           <a href="" class="policy">Privacy Policy</a>
         </label>
       </div>
-      <button class="submit-buttom" type="submit">Send
+      <button class="submit-button" type="submit">Send
 
       </button>
     </div>
   </div>
   
   </div>
+</footer>
 </body>
 
 </html>
