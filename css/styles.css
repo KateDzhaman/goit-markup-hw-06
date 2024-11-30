@@ -877,18 +877,13 @@ padding: 8px 24px;
 min-width: 165px;
 height: 40px;
 cursor: pointer;
-  
-    margin-left: 24px;
+  margin-left: 24px;
 }
 .submit-icon {
     margin-left: 16px;
 }
 .send-icon {
     fill: #fff;
-    ;
 }
-.button-icon {
-    margin-left: 16px;
-    margin-top: 8px;
-}
+
 
