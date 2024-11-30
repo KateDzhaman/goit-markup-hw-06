@@ -579,10 +579,12 @@ padding: 72px 24px 24px 24px;
 }
 
 .button-modal-close:hover {
+    fill: #FFFFFF;
     background-color: #404bbf;
     border: none;
 }
 .button-modal-close:focus {
+    fill: #FFFFFF;
     background-color: #404bbf;
     border: none;
 }
