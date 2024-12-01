@@ -474,7 +474,6 @@ img {
 .footer-main {
     display: flex;
     align-items: baseline;
-
     max-width: 1158px;
     margin-left: 156px;
     margin: 0 auto;
@@ -482,7 +481,6 @@ img {
 
 .footer-container {
     margin-right: 120px;
-
 }
 
 .footer-logo {
@@ -502,13 +500,11 @@ img {
     letter-spacing: 0.02em;
     color: #FFFFFF;
     margin-bottom: 16px;
-
 }
 
 .social-links-footer {
     display: flex;
     gap: 16px;
-
 }
 
 .social-items-footer {
@@ -529,22 +525,18 @@ img {
 
 .social-links-footer .svg-avatar:hover {
     background-color: #31d0aa;
-    ;
 }
 
 .social-links-footer .svg-avatar:focus {
     background-color: #31d0aa;
-
 }
 
 .svg-avatar-icon {
     width: 24px;
-
 }
 
 .svg-avatar {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
 .backdrop {
@@ -663,9 +655,7 @@ img {
     border: none;
     max-height: 336px;
     width: 360px;
-
     margin-bottom: 16px;
-
 }
 
 .data {
@@ -685,10 +675,8 @@ img {
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
 }
-
-.svg-user-icon:hover
-.svg-user-icon:focus {
-    fill: #4D5AE5
+.data:focus {
+    border-color: #4D5AE5;
 }
 .user-input:focus + .svg-user-icon {
     fill: #4D5AE5
@@ -742,7 +730,7 @@ img {
     color: rgba(46, 47, 66, 0.4);
 }
 
-.submit-buttom {
+.submit-button {
     display: flex;
     justify-content: center;
     text-align: center;
