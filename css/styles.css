@@ -647,7 +647,7 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .user-input {
@@ -686,21 +686,13 @@ img {
     background-color: transparent;
 }
 
-.data:hover {
-    border-color: #4D5AE5;
-}
-
-.data:focus {
-    border-color: #4D5AE5;
-}
-
-.svg-user-icon:hover {
-    fill: #4D5AE5
-}
-
+.svg-user-icon:hover
 .svg-user-icon:focus {
     fill: #4D5AE5
 }
+.user-input:focus + .svg-user-icon {
+    fill: #4D5AE5
+ }
 
 .form-label {
     display: block;
@@ -867,8 +859,8 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
 .submit-button {
     display: block;
     margin: 0 auto;
-    height: 56px;
     min-width: 169px;
+    height: 56px;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
