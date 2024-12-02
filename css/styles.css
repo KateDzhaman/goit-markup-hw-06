@@ -360,7 +360,6 @@ img {
     .text-overlay {
         transform: translateY(0%)
     }
-
     ;
 }
 
@@ -392,9 +391,6 @@ img {
 .text-heading-title {
     margin-bottom: 8px;
 }
-
-
-
 .img-avatar {
     background-color: #f4f4fd;
 }
@@ -561,15 +557,12 @@ img {
 }
 
 .modal {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
     position: absolute;
     top: 50%;
     left: 50%;
     width: 408px;
     min-height: 584px;
-    height: 584px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
     border-radius: 4px;
@@ -579,7 +572,6 @@ img {
 }
 
 .button-modal-close {
-    margin-left: 360px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -642,20 +634,7 @@ img {
 
 .user-input {
     position: relative;
-    margin-bottom: 16px;
 }
-
-.form-main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 32px;
-    border: none;
-    max-height: 336px;
-    width: 360px;
-    margin-bottom: 16px;
-}
-
 .data {
     position: relative;
     padding: 4px;
@@ -684,7 +663,6 @@ img {
     display: block;
     margin-bottom: 8px;
     font-size: 12px;
-    margin-top: 8px;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
@@ -721,10 +699,6 @@ img {
 }
 
 .textarea-label::placeholder {
-    padding: 38px;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
 
@@ -757,9 +731,6 @@ img {
 }
 
 .user-form-textarea {
-    position: relative;
-    display: flex;
-    flex-direction: column;
     margin-bottom: 16px;
 }
 
@@ -792,10 +763,6 @@ img {
 }
 
 .chek-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 16px 24px 24px;
     margin-bottom: 24px;
 }
 
@@ -806,10 +773,6 @@ img {
 }
 
 .new-checkbox {
-    position: absolute;
-    justify-content: center;
-    align-items: center;
-    width: 360px;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
@@ -829,7 +792,6 @@ img {
     margin-bottom: 0;
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    padding: 4px 3px;
     cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -860,7 +822,6 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
 }
 
 .p-form-subscribe {
-    margin-left: 80px;
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -877,19 +838,6 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
     display: flex;
     gap: 24px;
 }
-
-.footer-email {
-    display: flex;
-    flex-direction: column;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color: #fff;
-    margin-left: 80px;
-}
-
 .email-enter {
     width: 264px;
     height: 40px;
@@ -929,7 +877,6 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
     min-width: 165px;
     height: 40px;
     cursor: pointer;
-    margin-left: 24px;
 }
 
 .submit-icon {
