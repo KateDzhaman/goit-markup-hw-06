@@ -858,6 +858,16 @@ max-width: 584px;
     display: flex;
     gap: 24px;
 }
+.footer-logo {
+    margin-bottom: 16px;
+    margin-left: 0%;
+
+}
+
+.social-text {
+margin-bottom: 16px;
+margin-left: 0%;
+}
 }
 
 .backdrop {
@@ -875,8 +885,8 @@ max-width: 584px;
 }
 
 .backdrop.is-open {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
     pointer-events: auto;
 }
 
