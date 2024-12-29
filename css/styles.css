@@ -641,9 +641,7 @@ width: 288px;
 }
 
 
-.page-footer {
-    width: 320px;
-}
+
 
 .footer-main {
     display: flex;
@@ -662,14 +660,14 @@ width: 288px;
     letter-spacing: 0.02em;
     color: #434455;
 }  
-
+/*
 .footer-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-
+*/
 
 .footer-logo {
     display: inline-block;
@@ -805,9 +803,7 @@ width: 288px;
     fill: #fff;
 }
 @media screen and (min-width: 768px) {
-    .page-footer {
-        width: 768px;
-    }
+   
     
 .footer-main {
     flex-direction: unset;
@@ -844,18 +840,17 @@ max-width: 584px;
 
 @media screen and (min-width: 1158px) {
     .page-footer {
-        width: 1158px;
-        max-height: 312px;
+       
         justify-content: center;
     }
     .footer-main 
          {
             display: flex;
             align-items: baseline;
-            max-width: 1125px;
-            margin-left: 156px;
-            margin: 0 auto;
-            margin-left: 156px;
+            max-width: 1158px;
+                  }
+        .email-enter {
+            width: 264px;
         }
         
 .form-footer {
@@ -1144,8 +1139,8 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
 }
 
 .backdrop.menu-open {
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
     pointer-events: auto;
 }
 
