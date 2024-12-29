@@ -110,6 +110,10 @@ button {
     display: block;
     fill: #2f2f37;
 }
+.main {
+    justify-content: center;
+    align-items: center;
+}
 @media screen and (min-width: 768px) {
     .burger-btn {
     display: none;
@@ -469,11 +473,9 @@ button {
 .social-links .svg-avatar:focus {
     background-color: #404bbf;
 }
-@media screen and (min-width: 768px) {
-    .container { padding: 0;
-    }
+@media screen and (min-width: 768px) 
    
-    
+ {   
 .img-avatar {
     max-width: 768px;
     background-color: #f4f4fd;
@@ -842,7 +844,9 @@ max-width: 584px;
 
 @media screen and (min-width: 1158px) {
     .page-footer {
-        width: 1440px;
+        width: 1158px;
+        max-height: 312px;
+        justify-content: center;
     }
     .footer-main 
          {
@@ -1168,7 +1172,7 @@ input[type="checkbox"]:checked+.new-checkbox>.span-checkbox {
     margin-top: 72px;
     
 }
-.contacts-list {
+.contacts-list-menu {
     display: flex;
     flex-direction: column;
     align-items: center;
