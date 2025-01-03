@@ -343,6 +343,13 @@ button {
     }
 }
 @media screen and (min-width: 1158px) {
+    .text {
+        margin: auto;
+    }
+    .section.text{
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
 .text-list {
     
     gap: 24px;
@@ -505,7 +512,8 @@ button {
 
 .img-illustration {
     margin: 0 auto;
-   
+   padding-top: 93px;
+   padding-bottom: 96px;
 width: 288px;
 }
 
@@ -606,6 +614,7 @@ width: 288px;
 }
 @media screen and (min-width: 768px) {
     .img-illustration {
+       
     width: 736px;
     }
     .img-illustration-list {
